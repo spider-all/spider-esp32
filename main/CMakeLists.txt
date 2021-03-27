@@ -1,1 +1,1 @@
-idf_component_register(SRCS "spider.c" INCLUDE_DIRS "")
+idf_component_register(SRCS "spider.cpp" INCLUDE_DIRS "")

@@ -6,10 +6,10 @@
 #include <freertos/task.h>
 #include <sdkconfig.h>
 
-void app_main() {
+extern "C" void app_main() {
+
   printf("Hello world!\n");
 
-  /* Print chip information */
   esp_chip_info_t chip_info;
   esp_chip_info(&chip_info);
   printf("This is ESP32 chip with %d CPU cores, WiFi%s%s, ",
