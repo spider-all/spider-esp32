@@ -1,9 +1,8 @@
 *.zip
 
 build/
-.vscode/
 server/src/debug/
 server/src/release/
 
 venv/
-esp-idf-v*/
+esp-idf*/
