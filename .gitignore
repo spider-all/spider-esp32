@@ -1,8 +1,8 @@
 *.zip
 
 build/
-server/src/debug/
-server/src/release/
-
+server/debug/
+server/release/
+server/pkgs/
 venv/
 esp-idf*/

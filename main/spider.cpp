@@ -7,13 +7,9 @@
 #include <sdkconfig.h>
 
 extern "C" void app_main() {
-
-  printf("Hello world!\n");
-
   esp_chip_info_t chip_info;
   esp_chip_info(&chip_info);
-  printf("This is ESP32 chip with %d CPU cores, WiFi%s%s, ",
-         chip_info.cores,
+  printf("This is ESP32 chip with %d CPU cores, WiFi%s%s, ", chip_info.cores,
          (chip_info.features & CHIP_FEATURE_BT) ? "/BT" : "",
          (chip_info.features & CHIP_FEATURE_BLE) ? "/BLE" : "");
 
