@@ -17,3 +17,5 @@ export IDF_PATH=esp-idf
 echo "export IDF_PATH=esp-idf"
 
 echo "source ${IDF_PATH}/export.sh"
+
+echo "test"
